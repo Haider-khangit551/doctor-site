@@ -11,7 +11,7 @@ const Hero = () => {
                 transition={{ duration: 0.5, delay: 0.7 }}
                 viewport={{ once: true }}
                 className='inline-flex items-center gpa-2  border border-gray-300 p-1.5 pr-4 rounded-full'>
-                <img className='w-20' src={assets.groupPhoto} alt="" />
+                <img className='w-20' src={assets.grp2} alt="" />
                 <p className='text-xsm'>Trusted by 1k+ Patients</p>
             </motion.div>
             <motion.h1
