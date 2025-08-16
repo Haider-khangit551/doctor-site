@@ -101,11 +101,12 @@ const Navbar = ({ theme, setTheme }) => {
     }
 
     return (
-        <motion.div
+         <motion.div
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
-            className='flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70'>
+            className='flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-4 fixed top-0 left-0 right-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70'
+        >
 
             {
                 theme === "dark" ?
