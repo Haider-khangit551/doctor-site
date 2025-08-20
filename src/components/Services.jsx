@@ -44,7 +44,7 @@ const Services = () => {
             whileInView='visible'
             viewport={{once: true}}
             transition={{staggerChildren: 0.2}}
-            id='services' className='relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
+            id='services' className='relative flex mt-[-50px] flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
             <img src={assets.bgImage1} alt="" className='absolute -top-110 -left-70 -z-1 dark:hidden' />
             <Title title='What we are providing?' desc='Providing expert medical care, advanced diagnostics, and personalized treatment plans to ensure your health and well-being.' />
 

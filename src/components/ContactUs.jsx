@@ -4,7 +4,7 @@ import assets from '../assets/assets'
 
 const ContactUs = () => {
     return (
-        <div id='contact' className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
+        <div id='contact' className='flex flex-col mt-[-50px] items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
             <Title title='Contact us' desc='Have questions or need assistance? Our team is here to help you anytime. Reach out today for quick and friendly support.' />
             <form className='grid sm:grid-cols-2 gap-3 sm:gap-5 max-w-2xl w-full'>
                 <div>
