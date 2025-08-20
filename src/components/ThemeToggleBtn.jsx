@@ -1,31 +1,31 @@
-import React, { useEffect } from 'react'
-import assets from '../assets/assets'
+// import React, { useEffect } from 'react'
+// import assets from '../assets/assets'
 
-const ThemeToggleBtn = ({ theme, setTheme }) => {
+// const ThemeToggleBtn = ({ theme, setTheme }) => {
 
-    useEffect(() => {
-        const prefersDarkmode = window.matchMedia('(prefer-color-scheme:dark)').matches;
-        setTheme(theme || (prefersDarkmode ? 'dark' : 'light'))
-    }, [])
+//     useEffect(() => {
+//         const prefersDarkmode = window.matchMedia('(prefer-color-scheme:dark)').matches;
+//         setTheme(theme || (prefersDarkmode ? 'dark' : 'light'))
+//     }, [])
 
-    useEffect(() => {
-        if (theme === "dark") {
-            document.documentElement.classList.add("dark")
-        } else {
-            document.documentElement.classList.remove("dark")
-        }
-        localStorage.setItem("theme", theme)
-    }, [theme])
+//     useEffect(() => {
+//         if (theme === "dark") {
+//             document.documentElement.classList.add("dark")
+//         } else {
+//             document.documentElement.classList.remove("dark")
+//         }
+//         localStorage.setItem("theme", theme)
+//     }, [theme])
 
-    return (
-        <>
-            <button>{theme === "dark" ? (
-                <img src={assets.sun_icon} className='soze-8.5 p-1.5  border border-gray-500 rounded-full' onClick={() => setTheme("light")} alt="" />
-            ) : (
-                <img src={assets.moon_icon} className='soze-8.5 p-1.5  border border-gray-500 rounded-full' onClick={() => setTheme("dark")} />
-            )}</button>
-        </>
-    )
-}
+//     return (
+//         <>
+//             <button>{theme === "dark" ? (
+//                 <img src={assets.sun_icon} className='soze-8.5 p-1.5  border border-gray-500 rounded-full' onClick={() => setTheme("light")} alt="" />
+//             ) : (
+//                 <img src={assets.moon_icon} className='soze-8.5 p-1.5  border border-gray-500 rounded-full' onClick={() => setTheme("dark")} />
+//             )}</button>
+//         </>
+//     )
+// }
 
-export default ThemeToggleBtn
+// export default ThemeToggleBtn
