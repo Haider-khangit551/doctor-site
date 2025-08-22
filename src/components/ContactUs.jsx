@@ -23,6 +23,14 @@ const ContactUs = () => {
                     </div>
                 </div>
 
+                <div className=''>
+                    <p className='mb-2 text-sm font-medium'>Your City</p>
+                    <div className='flex pl-3 rounded-lg border border-gray-300 dark:border-gray-600'>
+                        <img src={assets.email_icon} className='' alt="" />
+                        <input type="text" placeholder='Enter Your City Name' name="" id="" className='w-full p-3 text-sm outline-none' />
+                    </div>
+                </div>
+
                 <div className='sm:col-span-2'>
                     <p className='mb-2 text-sm font-medium'>Write Your Question ?</p>
                     <textarea rows={8} placeholder='Write Here.' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600' />
